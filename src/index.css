@@ -1,10 +1,50 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-weight: bolder;
+  
+}
+
+
+
+.con{
+  height: 100vh;
+  width: 100%;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  width: 50px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: chocolate;
+  
+}
+
+
+.btn{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+
+button{
+  padding: 12px;
+  background-color: crimson;
+  font-family: 'Karla', sans-serif;
+}
+.in{
+  background-color: cyan;
 }
 
 code {
