@@ -1,22 +1,25 @@
-import React, {useState} from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import Button from '@material-ui/core/Button';
 
 function App() {
-  let [count,setcount]=useState(1);
- 
-  return (
-    <div className="night"> 
-      <div className='box'>
-      <h2>Increment Operation</h2>
-      <form>
-        <input type="number" value={count}></input>
-       
-      </form>
-      <button onClick={()=> setcount(count=count+1)
-      } >Increment</button>
-      
-      </div>
 
+  const[num,incr]=useState(0);
+  const inc = (event)=>{
+    incr(num+1);
+  }
+  
+  const dec = ()=>{
+    if(num>0)
+incr(num-1);
+  }
+  
+  return (
+    <div className="con">
+    <h1>{num}</h1>
+    <div className='btn'>
+    <Button variant="contained" color="primary" onClick={inc} className='in'>Increment</Button>
+    <Button variant="contained" onClick={dec}>decrement</Button>
+    </div>
     </div>
   );
 }
