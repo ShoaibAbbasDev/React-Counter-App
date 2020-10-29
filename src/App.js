@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState} from 'react'; //using react useState hook
 import './App.css';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <input type="number" value={count}></input>
        
       </form>
-      <button onClick={()=> setcount(count=count+1)
+      <button onClick={()=> setcount(count++)
       } >Increment</button>
       
       </div>
