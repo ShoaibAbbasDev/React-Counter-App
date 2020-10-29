@@ -12,7 +12,7 @@ function App() {
         <input type="number" value={count}></input>
        
       </form>
-      <button onClick={()=> setcount(count++)
+      <button onClick={()=> setcount(++count) // adding ++count
       } >Increment</button>
       
       </div>
