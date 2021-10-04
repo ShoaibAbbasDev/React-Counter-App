@@ -1,4 +1,4 @@
-import React, {useState} from 'react'; //using react useState hook
+import React, {useState} from 'react'; //using react useState hooks in funtional component
 import './App.css';
 
 function App() {
