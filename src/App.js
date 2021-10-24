@@ -2,7 +2,7 @@ import React, {useState} from 'react'; //using react useState hook
 import './App.css';
 
 function App() {
-  let [count,setcount]=useState(1);
+  let [count,setcount]=useState(1);    //  use react 'usse state hook'
  
   return (
     <div className="night"> 
@@ -12,8 +12,10 @@ function App() {
         <input type="number" value={count}></input>
        
       </form>
-      <button onClick={()=> setcount(++count) // adding ++count
+      <button onClick={()=> setcount(++count) // increementing  ++count
       } >Increment</button>
+      <button onClick={()=> setcount(--count) // decreementing  --count
+      } >Decrement</button>
       
       </div>
 
