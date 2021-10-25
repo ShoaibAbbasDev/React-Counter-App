@@ -15,9 +15,6 @@ function App() {
       </form>
       <button onClick={()=> setcount(count=count+1) // adding count=count+1
       } >Increment</button>
-<button onClick={()=> setcount(count=count-1) // adding count=count+1
-      } >Decrement</button>
-      
       </div>
 
     </div>
