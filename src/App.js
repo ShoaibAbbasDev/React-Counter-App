@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="night"> 
       <div className='box'>
-      <h2>Increment Operation</h2>
+      <h1>Increment Operation</h1>
       <form>
         <input type="number" value={count}></input>
        
